@@ -1,0 +1,161 @@
+.list{
+    height: 550px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(59, 59, 191, 0.2) 0px 7px 29px 0px;
+}
+.filter{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchbar{
+    width: 20%;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.searchbar i{
+    color: rgb(193, 190, 190);
+    margin-right: 10px;
+}
+.searchbar input{
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+.searchbar input::placeholder{
+    color: rgb(193, 190, 190);
+    font-size: 16px;
+}
+.sortbar label{
+    margin-right: 5px;
+    color: rgb(193, 190, 190);
+}
+.sortbar i{
+    margin-left: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #c7c6c6;
+}
+th{
+    background-color: rgb(216, 230, 255);
+    padding: 12px;
+    color: rgb(79, 74, 74);
+}
+td{
+    color: rgb(91, 89, 89);
+    font-size: 16px;
+}
+td b{
+    color: rgb(56, 56, 56);
+}
+ button{
+    border: 1px solid rgb(39, 78, 169);
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: rgb(39, 78, 169);
+    background-color: white;
+}
+
+
+/* mobile view */
+
+.mobile-content{
+    background-color: rgb(239 239 239);
+}
+.mobile-header{
+    background-image: linear-gradient(to right, rgb(24, 62, 132),rgb(56, 145, 212));
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    border-radius: 0px 0px 0px 50px;
+    position: relative;
+    overflow: hidden;
+}
+.mobile-header img{
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.mobile-heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+.mobile-heading p{
+    font-size: 24pxpx;
+}
+.mobile-filter{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.project-card{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(59, 59, 191, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+.card-heading{
+    display: flex;
+    color: rgb(193, 190, 190);
+    justify-content: space-between;
+}
+.card-content{
+    margin: 20px 0px;   
+}
+.card-content p{
+    color: rgb(193, 190, 190);
+    font-size: 18px;
+}
+.card-content, .card-heading b{
+    color: rgb(40, 40, 40);
+}
+.card-content span{
+    color: rgb(40, 40, 40);
+}
+
+
+
+
+
+@media (max-width:580px) {
+    .searchbar{
+        width: 80%;
+        display: flex;
+        border-bottom: 1px solid rgb(165, 164, 164); ;
+    }
+    .searchbar i{
+        color: rgb(193, 190, 190);
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .searchbar input{
+        font-size: 18px;
+        background-color: transparent;
+    }
+    .searchbar input::placeholder{
+        font-size: 20px;
+    }
+    .sortbar i{
+        color: rgb(193, 190, 190)
+    }
+}

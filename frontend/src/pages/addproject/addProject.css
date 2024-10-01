@@ -1,0 +1,107 @@
+.addproject{
+    background-color: rgb(239 239 239);
+    height: 700px;
+}
+.header-content h1 i{
+    margin-right: 10px;
+}
+.addproject-form{
+    padding: 20px;
+    height: 550px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(59, 59, 191, 0.2) 0px 7px 29px 0px;
+}
+.project-theme{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projectName{
+    width: 60%;
+    height: 80px;
+    border: 2px solid rgb(200, 197, 197);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: start;
+}
+.projectName::placeholder{
+    color: rgb(193, 190, 190);
+    font-size: 16px;
+    position: relative;
+    top: -15px;
+}
+.saveproject-btn{
+    border: none;
+    background-color: rgb(39, 78, 169);
+    border-radius: 50px;
+    color: white;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+.project-form{
+    margin: 50px 0px 20px 0px;
+    width: 90%;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.input-field{
+    color: rgb(153, 152, 152) ;
+    display: grid;
+    width: 30%;
+    margin-right: 30px;
+    position: relative;
+}
+.input-field input{
+    border: 2px solid rgb(188, 187, 187);
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    font-size: 16px;
+    color: rgb(85, 84, 84);
+}
+.input-field i{
+    position: absolute;
+    top: 45px;
+    right: 20px;
+}
+.status{
+    text-align: right;
+    width: 69%;
+}
+.status label{
+    text-align: right;
+    color:rgb(153, 152, 152) ;
+}
+
+@media (max-width:580px) {
+    .projectName{
+        width: 100%;
+    }
+    .project-form{
+        width: 100%;
+        display: grid;
+    }
+    .input-field{
+        width: 100%;
+        margin-right: 30px;
+        position: relative;
+    }
+    .input-field input{
+        width: 100%;
+        padding: 20px;
+    }
+    .input-field i{
+        top: 50px;
+    }
+    .addproject-form{
+        margin-top: 50px;
+    }
+    .addproject-form, .addproject{
+        height: auto;
+    }
+}

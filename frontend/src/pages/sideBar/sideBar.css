@@ -1,0 +1,65 @@
+.sidebar{
+    width:fit-content;
+    float: left;
+    height: 700px;
+    background-color: white;
+    /* border: 1px solid black; */
+    display: grid;
+    align-items: end;
+}
+.side-bar-image{
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.active{
+    border-left: 5px solid rgb(29, 81, 153);
+}
+.project-list{
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+
+}
+.project-list:hover{
+    border-left: 5px solid rgb(29, 81, 153);
+}
+hr{
+    margin: 0px 20px;
+    background-color: rgb(125, 125, 125);
+    padding: 1px;
+    border-radius: 50px;
+}
+.add-project{
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.add-project:hover{
+    border-left: 5px solid rgb(29, 81, 153);
+}
+.logout{
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 10px 0px; 
+}
+
+.bottom-bar{
+    background-color: white;
+    border: none;
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(59, 59, 191, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    width: 100%;
+    bottom:0px;
+    /* float: inline-end; */
+}
+.bottom-bar img{
+    padding: 20px;
+}
+.actived{
+    border-bottom: 7px solid rgb(41, 94, 208);
+    border-radius: 0px 0px 5px 5px;
+}
